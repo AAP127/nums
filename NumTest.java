@@ -5,7 +5,7 @@ public class NumTest {
     
     @Test
     public void testNum(){
-        assertEquals(2, Num.number());
+        assertEquals(2, Num.number()+Num.number());
     }
     
 }
